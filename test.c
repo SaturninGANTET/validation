@@ -22,7 +22,7 @@ void CSC_test_1(void)
     CU_ASSERT_EQUAL(CSC(4, arg), 0);
 
     arg[1] = "2"; //distance
-    CU_ASSERT_EQUAL(CSC(4, arg), 1);
+    CU_ASSERT_EQUAL(CSC(4, arg), 2);
 
     arg[2] = "1"; //frein on
     CU_ASSERT_EQUAL(CSC(4, arg), 3);
