@@ -124,5 +124,5 @@ int main(void)
     CU_basic_show_failures(CU_get_failure_list());
     printf("\n\n");
     */
-   CU_automated_run_test();
+   CU_automated_run_tests();
 }
