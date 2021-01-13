@@ -84,7 +84,7 @@ void propage_message_test()
     arg[8] = "30";
     arg[9] = "30";
     arg[10] = "30"; //temps
-    CU_ASSERT_EQUAL(CSC(11, arg), 25); //0
+    CU_ASSERT_EQUAL(CSC(11, arg), 30); //0
 
     arg[3] = "1";
     CU_ASSERT_EQUAL(CSC(11, arg), 4);
