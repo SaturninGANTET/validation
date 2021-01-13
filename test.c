@@ -76,7 +76,7 @@ void propage_message_test()
     char *arg[11];
     arg[1] = "10"; //distance
     arg[2] = "0";  //frein off
-    arg[3] = "0";  // hasMessage
+    arg[3] = "0";  //hasMessage
     arg[4] = "30"; //position
     arg[5] = "30";
     arg[6] = "30";
@@ -116,10 +116,13 @@ int main(void)
     }
 
     // Run all tests using the basic interface
+    /*
     CU_basic_set_mode(CU_BRM_VERBOSE);
     CU_basic_run_tests();
     CU_basic_run_suite(pSuite);
     printf("\n");
     CU_basic_show_failures(CU_get_failure_list());
     printf("\n\n");
+    */
+   CU_automated_run_test();
 }
