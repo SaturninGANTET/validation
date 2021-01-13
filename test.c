@@ -2,8 +2,8 @@
 //export LD_LIBRARY_PATH
 //gcc -Wall -LCUnit-2.1-3/CUnit/Sources/.libs -ICUnit-2.1-3/CUnit/Headers -o main_test test.c main.o -lcunit
 
-#include "CUnit.h"
-#include "Basic.h"
+#include "CUnit/CUnit.h"
+#include "CUnit/Basic.h"
 
 #include "main.h"
 
